@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="150dp"
+    android:layout_height="250dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:background="@drawable/luce">
+    <ImageView
+        android:id="@+id/iv_weather"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:src="@drawable/yin"
+        />
+
+    <TextView
+        android:id="@+id/tv_tem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="31°C"
+        android:textSize="40sp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/tv_weather"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="阴转多云"
+        android:textSize="16sp"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/black"
+        />
+    <TextView
+        android:id="@+id/tv_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="(2024-12-22星期日)"
+        android:textSize="16sp"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/black"
+        />
+
+    <TextView
+        android:id="@+id/tv_tem_low_high"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="25°C~33°C"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        />
+
+    <TextView
+        android:id="@+id/tv_win"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="南风2级~4级"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        />
+
+
+
+
+</LinearLayout>

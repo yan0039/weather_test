@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="colorPrimary">@color/green_500</color>
+    <color name="colorPrimaryDark">@color/green_700</color>
+    <color name="colorAccent">#FF5722</color>
+
+    <color name="green_200">#A5D6A7</color>
+    <color name="green_500">#4CAF50</color>
+    <color name="green_700">#388E3C</color>
+    <color name="bantouming">#3f000000</color>
+    <color name="touming">#00000000</color>
+    <color name="pink">#FFCCCC</color>
+    <color name="gray">#656565</color>
+
+    <color name="trans">#00000000</color>
+</resources>
